@@ -1,6 +1,6 @@
 name: NodeJS Github Action
 
-on: push
+on: workflow_dispatch
 
 jobs:
   build:
