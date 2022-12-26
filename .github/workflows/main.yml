@@ -13,6 +13,6 @@ jobs:
       with:
           node-version: 16
     - name: Install Dependencies
-      uses: nom install
+      uses: npm install
     - name: Run tests
       uses: npm test
